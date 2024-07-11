@@ -1,0 +1,172 @@
+body{
+    margin:0;
+    padding: 0;
+}
+
+.logo{
+    margin-left:100px;
+    font-size:24px;
+    color: #F9FAF8;
+
+}
+
+main{
+    background-color:#1F2937 ;
+    height: 300px;
+    width: 100%;
+}
+
+ul{
+    margin-right:50px;
+    float:right;
+    margin-top: 10px;
+}
+ ul a li{
+    display:inline;
+    padding-right:20px;
+    font-size: 18px;
+    color:#E5E7EB;
+    
+}
+
+ul a{
+    text-decoration: none;
+}
+.wesome{
+    font-size: 48px;
+    color:#F9FAF8;
+    font-weight: extra-bold;
+   
+    
+}
+
+.main{
+    padding-top: 50px;
+    margin-left:100px;
+    display:flex;
+    flex: 1;
+    gap:400px;
+}
+section{
+    font-size: 18px;
+    color:#E5E7EB; 
+   
+}
+.two{
+    border:0 solid wheat;
+    background-color: darkgray;
+    height: 100px;
+    width:300px;
+    text-align: center;
+    padding-top: 80px;
+}
+span{
+    position: relative;
+    float: center;
+    color:#E5E7EB; 
+    padding: 10px;
+}
+button{
+    background-color: #3882F6;
+    border-radius:5PX;
+    border:2px solid #3882F6;;
+}
+.section1{
+    height: 170px;
+    width: 100%;
+    display: flex;
+   gap: 50px;
+   justify-content:space-between;
+   
+}
+.section1 .d1{
+    border:2px solid #3882F6;
+    flex:1;
+    margin-left:400px;
+    border-radius:10px;
+}
+.section1 .d2{
+    border:2px solid #3882F6;
+    flex:1;
+    border-radius:10px;
+}
+.section1 .d3{
+    border:2px solid #3882F6;
+    border-radius:10px;
+    flex:1;
+}
+.section1 .d4{
+    border:2px solid #3882F6;
+    border-radius:10px;
+    
+
+    flex:1; 
+    margin-right:400px;
+}
+
+
+.section2{
+    margin-top:50px;
+    background: #E5E7EB;
+    height: 300px;
+    width:100%;
+    font-size:36px;
+    color:#1F2937 ;
+    font-weight: light;
+
+}
+
+p{
+ margin-left: 20%;
+   
+    padding:50px;
+}
+bold{
+    text-align: center; 
+    color: #1F2937;
+    font-size: 36px;
+    font-weight:extra-bold;
+    margin-top:20px;
+}
+.section3{
+    display:flex;
+    height: 200px;
+    background:#F9FAF8;
+    align-items: center;
+    justify-content:center;
+   
+   
+}
+.section3 div{
+    
+    width:1100px;
+    background:#3882F6;;
+    
+    
+}
+.container{
+    display:flex;
+    color: #F9FAF8;
+    border:2px solid #3882F6;
+    box-sizing: border-box;
+    padding: 16px;
+    padding-left: 180px;
+    gap: 80px;
+    border-radius: 5px;
+    
+
+}
+
+
+.button{
+    color:#F9FAF8;
+    border:2px solid #F9FAF8;;
+   flex-grow: 0;
+   
+}
+.footer{
+    padding:20px;
+    background-color: #1F2937 ;
+    text-align: center;
+     
+}
